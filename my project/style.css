@@ -1,0 +1,275 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+li,ul,h1{
+    display: inline;
+}
+
+ul{
+    margin-left: 60%;
+}
+
+li{
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+}
+
+
+
+B{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form{
+    width: 40%;
+    margin: 50px auto;
+    background-color: rgba(0,0,0,.5);  
+    padding: 10px 20px 10px;
+    color: white; 
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#form h3{
+    color: rgb(241, 98, 3);
+    text-align: center;
+}
+
+#form .one{
+    display: block;
+    color:white ;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid green;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+
+input:focus{
+    background-color: rgb(157, 250, 157);
+}
+
+ button{
+    background-color: aqua;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px;
+    border: 1px solid greenyellow;
+    cursor: pointer;
+    width: 100%;
+}
+
+.radio input{
+    accent-color: green;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+footer{
+    padding: 287px 0px 0px;
+}
+.foot h4{
+    margin-left: 80%;
+}
+
+body{
+    background-color: #F9ED69;
+    background: url(website_background.jpg);
+}
+.foot h5{
+    text-align: left;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.input.success input{
+    border-color: green;
+}
+
+.input.error input{
+    border-color: red;
+}
+@media only screen and (min-width:321px) and (max-width:480px)
+{
+#form{
+    width: 80%;
+	
+
+}
+
+nav h1
+{
+	width:80%;
+	text-align:center;
+	padding-bottom:5px;
+}
+li,ul,h1{
+    display:inline-block;
+}
+
+ul.nav
+{
+	width:80%;
+	padding-top:5px;
+}
+ul.nav li
+{
+	width:25%;
+	
+	float:left;
+}
+
+ul {
+    margin-left: 70px;
+}
+.foot h4
+{
+	margin-left:0;
+}
+.mail {
+    margin-left: 0;
+	width:47%;
+	float:left;
+	font-size:12px;
+}
+.address {
+    margin-left: 0;
+	width:100%;
+	font-size:12px;
+}
+nav h4
+{
+	width:80%;
+}
+}
+@media only screen and (max-width:320px)
+{
+	#form{
+    width: 80%;
+	
+
+}
+nav h1
+{
+	width:100%;
+	text-align:center;
+}
+li,ul,h1{
+    display:inline-block;
+}
+
+ul.nav
+{
+	width:94%;
+	padding-top:5px;
+}
+ul.nav li
+{
+	width:25%;
+	
+	float:left;
+}
+
+ul {
+    margin-left: 35px;
+}
+.mail {
+    margin-left: 0;
+	width:100%;
+	float:left;
+	text-align:center;
+	padding-bottom:10px;
+}
+.address {
+  
+	width:100%;
+	text-align:center;
+	padding-bottom:10px;
+	
+}
+nav h4
+{
+	width:80%;
+}
+nav h5
+{
+	width:80%;
+	
+}
+.foot h4
+{
+	margin-left:0;
+}
+.foot h5
+{
+	text-align:center;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:800px)
+{
+nav h1
+{
+	width:40%;
+	text-align:center;
+	padding-bottom:5px;
+}
+li,ul,h1{
+    display:inline;
+}
+
+ul.nav
+{
+	width:50%;
+	padding-top:5px;
+}
+ul {
+    margin-left: 50%;
+}
+
+nav h4
+{
+	width:80%;
+}
+nav h5
+{
+	width:80%;
+	
+}
+.foot h4
+{
+	margin-left:0;
+	float:left;
+	width:50%;
+}
+.foot h5
+{
+	text-align:center;
+}
+}
